@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Compass, ScanSearch, Map, MessagesSquare, ArrowRight } from "lucide-react";
+import { Rocket, ScanSearch, Map, MessagesSquare, ArrowRight } from "lucide-react";
 
 const features = [
   { icon: ScanSearch, title: "ATS scoring", desc: "See exactly how your resume performs against applicant tracking systems." },
@@ -14,9 +14,9 @@ export default function Landing() {
       <header className="flex items-center justify-between px-6 sm:px-10 h-20 max-w-7xl mx-auto">
         <div className="flex items-center gap-2.5">
           <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-forest-600 to-forest-800 flex items-center justify-center">
-            <Compass className="h-5 w-5 text-white" />
+            <Rocket className="h-5 w-5 text-white" />
           </div>
-          <span className="font-display font-bold text-xl text-ink-900 dark:text-paper-50">Ascent</span>
+          <span className="font-display font-bold text-xl text-ink-900 dark:text-paper-50">CareerCopilot</span>
         </div>
         <div className="flex items-center gap-3">
           <Link to="/login" className="btn-ghost">Sign in</Link>

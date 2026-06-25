@@ -12,7 +12,7 @@ export default function GlobalLoader({ show }) {
         >
           <div className="flex flex-col items-center gap-3">
             <div className="h-10 w-10 rounded-full border-2 border-forest-200 border-t-forest-600 animate-spin" />
-            <span className="font-display text-sm text-ink-600 dark:text-paper-200">Ascent</span>
+            <span className="font-display text-sm text-ink-600 dark:text-paper-200">CareerCopilot</span>
           </div>
         </motion.div>
       )}

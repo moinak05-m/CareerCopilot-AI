@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { X, Compass } from "lucide-react";
+import { X, Rocket } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { NAV_ITEMS } from "./navConfig";
 import { useAuth } from "../hooks/useAuth";
@@ -27,9 +27,9 @@ export default function MobileSidebar({ open, onClose }) {
             <div className="flex items-center justify-between px-5 h-16 border-b border-ink-100 dark:border-ink-700/60">
               <div className="flex items-center gap-2.5">
                 <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-forest-600 to-forest-800 flex items-center justify-center">
-                  <Compass className="h-4.5 w-4.5 text-white" />
+                  <Rocket className="h-4.5 w-4.5 text-white" />
                 </div>
-                <span className="font-display font-bold text-lg text-ink-900 dark:text-paper-50">Ascent</span>
+                <span className="font-display font-bold text-lg text-ink-900 dark:text-paper-50">CareerCopilot</span>
               </div>
               <button onClick={onClose} className="h-9 w-9 grid place-items-center rounded-lg text-ink-500 hover:bg-ink-100 dark:hover:bg-ink-800">
                 <X className="h-5 w-5" />

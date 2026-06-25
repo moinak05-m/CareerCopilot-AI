@@ -95,7 +95,7 @@ export default function Login() {
       </form>
 
       <p className="text-sm text-ink-500 dark:text-paper-300 mt-6 text-center">
-        New to Ascent?{" "}
+        New to CareerCopilot?{" "}
         <Link to="/register" className="font-medium text-forest-600 dark:text-forest-300 hover:underline">
           Create an account
         </Link>

@@ -19,5 +19,4 @@ export const NAV_ITEMS = [
   { to: "/roadmap", label: "Roadmap", icon: Map },
   { to: "/interview", label: "Interview Prep", icon: MessagesSquare },
   { to: "/profile", label: "Profile", icon: UserRound },
-  { to: "/settings", label: "Settings", icon: SlidersHorizontal },
 ];

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Compass, LogOut } from "lucide-react";
+import { Rocket, LogOut } from "lucide-react";
 import { NAV_ITEMS } from "./navConfig";
 import { useAuth } from "../hooks/useAuth";
 import { initials } from "../utils/format";
@@ -12,10 +12,10 @@ export default function Sidebar({ onNavigate }) {
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-ink-100 dark:border-ink-700/60 bg-white dark:bg-ink-900">
       <div className="flex items-center gap-2.5 px-6 h-16 border-b border-ink-100 dark:border-ink-700/60">
         <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-forest-600 to-forest-800 flex items-center justify-center">
-          <Compass className="h-4.5 w-4.5 text-white" strokeWidth={2.2} />
+          <Rocket className="h-4.5 w-4.5 text-white" strokeWidth={2.2} />
         </div>
         <span className="font-display font-bold text-lg tracking-tight text-ink-900 dark:text-paper-50">
-          Ascent
+          CareerCopilot
         </span>
       </div>
 

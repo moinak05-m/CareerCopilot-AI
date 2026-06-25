@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Compass, ShieldCheck, TrendingUp, Sparkles } from "lucide-react";
+import { Rocket, ShieldCheck, TrendingUp, Sparkles } from "lucide-react";
 
 const points = [
   { icon: ShieldCheck, text: "ATS-optimized resume scoring in seconds" },
@@ -18,9 +18,9 @@ export default function AuthLayout() {
 
         <Link to="/" className="relative flex items-center gap-2.5">
           <div className="h-9 w-9 rounded-lg bg-white/10 border border-white/20 flex items-center justify-center">
-            <Compass className="h-5 w-5 text-amber-300" />
+            <Rocket className="h-5 w-5 text-amber-300" />
           </div>
-          <span className="font-display font-bold text-xl">Ascent</span>
+          <span className="font-display font-bold text-xl">CareerCopilot</span>
         </Link>
 
         <div className="relative max-w-md">
