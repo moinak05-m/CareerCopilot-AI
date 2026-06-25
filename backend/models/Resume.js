@@ -24,7 +24,26 @@ const resumeSchema = new mongoose.Schema(
     {
         type: String,
     },
-],
+    ],
+    atsScore: {
+        type: Number,
+        default: 0,
+    },
+    atsStrengths: [
+    {
+        type: String,
+    },
+    ],
+    atsWeaknesses: [
+    {
+        type: String,
+    },
+    ],
+    atsSuggestions: [
+    {
+        type: String,
+    },
+    ],
 },
 {
     timestamps: true,

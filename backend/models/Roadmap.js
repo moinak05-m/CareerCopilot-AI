@@ -24,6 +24,16 @@ const roadmapSchema = new mongoose.Schema(
                 type:String,
             },
         ],
+        roadmapItems: [
+            {
+                title: String,
+                description: String,
+                estimatedWeeks: Number,
+                freeResources: [String],
+                completed: { type: Boolean, default: false },
+                month: String
+            }
+        ],
     },
     {
         timestamps: true,

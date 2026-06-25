@@ -12,6 +12,10 @@ const careerGoalSchema = new mongoose.Schema(
         type: String,
         required: true,
     },
+    timeline: {
+        type: String,
+        required: false,
+    },
 },
 {
     timestamps: true,
